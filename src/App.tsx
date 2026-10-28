@@ -43,7 +43,7 @@ function Nav() {
     { name: '거래소', href: '#markets' },
     { name: '전문가', href: '#team' },
     { name: '프로세스', href: '#process' },
-    { name: '서류제출', href: 'https://aistudio.google.com/apps/004d0d2d-c6f2-4910-9057-cb83a6375fa8?showAssistant=true&showPreview=true&project=gen-lang-client-0049408432&fullscreenApplet=true', isExternal: true },
+    { name: '서류제출', href: 'https://portal.vnkhanoicapital.com', isExternal: true },
   ];
 
   return (
@@ -612,7 +612,7 @@ function Contact() {
               <Mail size={16} /> 이메일 문의
             </a>
             <a 
-              href="https://aistudio.google.com/apps/004d0d2d-c6f2-4910-9057-cb83a6375fa8?showAssistant=true&showPreview=true&project=gen-lang-client-0049408432&fullscreenApplet=true" 
+              href="https://portal.vnkhanoicapital.com" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-navy-mid border border-gold/40 text-gold-light px-10 py-3.5 text-xs tracking-widest uppercase flex items-center justify-center gap-2 hover:bg-gold/10 transition-all font-semibold"
@@ -676,7 +676,7 @@ function Footer() {
             {['법률 자문', '재무 실사', 'IPO 실행', 'M&A 자문', '엑싯 전략'].map(item => (
               <li key={item}><a href="#" className="text-gray text-xs hover:text-gold-light transition-colors">{item}</a></li>
             ))}
-            <li><a href="https://aistudio.google.com/apps/004d0d2d-c6f2-4910-9057-cb83a6375fa8?showAssistant=true&showPreview=true&project=gen-lang-client-0049408432&fullscreenApplet=true" target="_blank" rel="noopener noreferrer" className="text-gold text-xs hover:text-gold-light transition-colors">서류제출</a></li>
+            <li><a href="https://portal.vnkhanoicapital.com" target="_blank" rel="noopener noreferrer" className="text-gold text-xs hover:text-gold-light transition-colors">서류제출</a></li>
           </ul>
         </div>
 
